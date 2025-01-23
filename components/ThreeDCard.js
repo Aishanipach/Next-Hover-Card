@@ -1,10 +1,10 @@
 "use client";
 
-import React from "react";
-import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import "../styles/global.css";
 import Image from "next/image";
+import React from "react";
 import asterisk from "../public/asterisk.png";
+import "../styles/global.css";
+import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 
 export function ThreeDCardDemo() {
   return (
@@ -49,7 +49,7 @@ export function ThreeDCardDemo() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Hover for CSS perspective and watch it go!
         </CardItem>
       </CardBody>
     </CardContainer>
